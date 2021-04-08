@@ -164,15 +164,14 @@ ul.socialnetwork{
     }
   }
 
-  @media (max-width: 600px) {
-    .container-inside-1 {
-      background-color: orangered;
-      flex-flow: column;
-    }
-    .b3-element1{
-        flex: 1 1 90%;
-        padding: 10px;
-        margin: 10px;
-        background-color: blue;
-    }
-  }
+@media (max-width: 600px) {
+.container-inside-1 {
+    background-color: orangered;
+    flex-flow: column;
+}
+.block-3{
+    flex-direction: column;
+}
+}
+
+  
